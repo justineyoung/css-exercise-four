@@ -1,4 +1,37 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.emphasis {
+  text-transform: uppercase;
+}
+
+div {
+  display: inline-block;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width:575px){
+  div {
+    margin: 0.85%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width:991px){
+  div {
+    margin: 0.85%;
+    width: 23%;
+  }
 }
